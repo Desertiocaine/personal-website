@@ -1,0 +1,1254 @@
+{
+  "Name": "(Custom) SummonMeHarder",
+  "Description": "Hard Mode with Summoners",
+  "Longdesc": "Summoners and more summoners, everyone must die before exit will open ",
+  "Rules": [
+    {
+      "Rule": "AbilityActionCostAdjusted",
+      "Config": {
+        "Blink": false,
+        "DrainingKiss": false,
+        "GrapplingSmash": false,
+        "ReplenishArmor": false,
+        "Teleportation": false,
+        "Zap": false
+      }
+    },
+    {
+      "Rule": "AbilityAoeAdjusted",
+      "Config": {
+        "Antitoxin": 1,
+        "BlindingLight": 1,
+        "BlockAbilities": 1,
+        "CourageShanty": 1,
+        "Deflect": 2,
+        "DrainingKiss": 1,
+        "ExtraActionPotion": 1,
+        "FlashBomb": 1,
+        "HealingPotion": 1,
+        "Leap": 1,
+        "LeapHeavy": 1,
+        "MagicPotion": 1,
+        "Net": 0,
+        "PoisonGas": 1,
+        "SongOfRecovery": 2,
+        "SongOfResilience": 2,
+        "StrengthPotion": 1,
+        "SwiftnessPotion": 1,
+        "WarCry": 1,
+        "WhirlwindAttack": 1
+      }
+    },
+    {
+      "Rule": "AbilityBreaksStealthAdjusted",
+      "Config": {
+        "CursedDagger": false,
+        "DrainLife": false,
+        "PoisonBomb": false,
+        "RevealPath": false
+      }
+    },
+    {
+      "Rule": "AbilityDamageOverridden",
+      "Config": {
+        "Arrow": [8, 16],
+        "BoobyTrap": [12, 0],
+        "DrainingKiss": [6, 0],
+        "Electricity": [8, 0],
+        "Freeze": [8, 0],
+        "GrapplingSmash": [8, 16],
+        "HailOfArrows": [8, 16],
+        "ImplosionExplosionRain": [9, 0],
+        "MinionCharge": [8, 16],
+        "MissileSwarm": [8, 0],
+        "PiercingVoice": [8, 16],
+        "ScrollElectricity": [6, 12],
+        "ShatteringVoice": [8, 16],
+        "Shockwave": [5, 0],
+        "TurretHealProjectile": [10, 0],
+        "Whip": [6, 0],
+        "WhirlwindAttack": [8, 16],
+        "Zap": [8, 16]
+      }
+    },
+    {
+      "Rule": "ApplyEffectOnHitAdjusted",
+      "Config": {
+        "HeroBarbarian": "Disoriented",
+        "HeroBard": "Disoriented",
+        "HeroGuardian": "Disoriented",
+        "HeroRogue": "Disoriented",
+        "HeroSorcerer": "Disoriented",
+        "HeroWarlock": "Disoriented",
+        "Lure": "Thorns",
+        "SwordOfAvalon": "Diseased",
+        "Verochka": "Panic"
+      }
+    },
+    {
+      "Rule": "BackstabConfigOverridden",
+      "Config": [
+        "HeroBarbarian",
+        "HeroBard",
+        "HeroRogue",
+        "HeroGuardian",
+        "HeroSorcerer",
+        "HeroHunter",
+        "WarlockMinion",
+        "HeroWarlock"
+      ]
+    },
+    {
+      "Rule": "CardChestAdditionOverridden",
+      "Config": {
+        "HeroBarbarian": [
+          "DetectEnemies",
+          "Teleportation",
+          "InvisibilityPotion",
+          "VigorPotion",
+          "MarkOfVerga",
+          "GrapplingSmash",
+          "SpawnCultists",
+          "Whip",
+          "SpawnRandomLamp",
+          "TauntingScream",
+          "GrapplingSmash",
+          "Shockwave",
+          "MarkOfVerga",
+          "PlayerLeap",
+          "MarkOfVerga"
+        ],
+        "HeroBard": [
+          "Teleportation",
+          "Rejuvenation",
+          "InvisibilityPotion",
+          "SpawnCultists",
+          "TeleportLamp",
+          "BlockAbilities",
+          "Banish",
+          "ExtraActionPotion",
+          "SongOfRecovery",
+          "SongOfResilience",
+          "PiercingVoice",
+          "ShatteringVoice",
+          "SongOfRecovery",
+          "ScrollOfCharm",
+          "SongOfResilience",
+          "ShatteringVoice",
+          "HurricaneAnthem",
+          "ScrollOfCharm",
+          "SongOfRecovery",
+          "SongOfResilience",
+          "ShatteringVoice",
+          "HurricaneAnthem"
+        ],
+        "HeroGuardian": [
+          "BlindingLight",
+          "EnemyJavelin",
+          "TurretHealProjectile",
+          "InvisibilityPotion",
+          "MagicShield",
+          "PoisonBomb",
+          "Teleportation",
+          "ExtraActionPotion",
+          "HeavensFury",
+          "PiercingThrow",
+          "Charge",
+          "TheBehemoth",
+          "PiercingThrow",
+          "WarCry",
+          "TheBehemoth",
+          "PiercingThrow"
+        ],
+        "HeroHunter": [
+          "Teleportation",
+          "SummonMediumMonster",
+          "InvisibilityPotion",
+          "BeastWhisperer",
+          "ScrollOfCharm",
+          "WaterDive",
+          "Freeze",
+          "BeastWhisperer",
+          "CallCompanion",
+          "HuntersMark",
+          "Lure",
+          "ScrollOfCharm",
+          "BeastWhisperer",
+          "HailOfArrows",
+          "CallCompanion",
+          "HuntersMark",
+          "HailOfArrows",
+          "CallCompanion",
+          "Lure"
+        ],
+        "HeroRogue": [
+          "Teleportation",
+          "ExtraActionPotion",
+          "ScrollOfCharm",
+          "Blink",
+          "PoisonBomb",
+          "CoinFlip",
+          "CursedDagger",
+          "BoobyTrap",
+          "FlashBomb",
+          "Blink",
+          "PoisonBomb",
+          "CursedDagger",
+          "FlashBomb",
+          "Blink",
+          "PoisonBomb",
+          "CursedDagger",
+          "BoobyTrap",
+          "FlashBomb"
+        ],
+        "HeroSorcerer": [
+          "Teleportation",
+          "WizardBossZap",
+          "InvisibilityPotion",
+          "LetItRain",
+          "WaterBottle",
+          "ScrollTsunami",
+          "HeavensFury",
+          "MagicPotion",
+          "Banish",
+          "Fireball",
+          "Freeze",
+          "Vortex",
+          "Fireball",
+          "Freeze",
+          "MagicShield",
+          "MagicBarrier",
+          "Vortex",
+          "Fireball",
+          "Freeze",
+          "MagicBarrier",
+          "Vortex"
+        ],
+        "HeroWarlock": [
+          "Teleportation",
+          "HeavensFury",
+          "MagicPotion",
+          "ImplosionExplosionRain",
+          "Deflect",
+          "EnemyFireball",
+          "GuidingLight",
+          "Implode",
+          "MissileSwarm",
+          "Portal",
+          "Deflect",
+          "GuidingLight",
+          "Implode",
+          "MissileSwarm",
+          "InvisibilityPotion",
+          "Portal",
+          "Deflect",
+          "GuidingLight",
+          "Implode",
+          "MissileSwarm",
+          "Portal"
+        ]
+      }
+    },
+    {
+      "Rule": "CardClassRestrictionOverridden",
+      "Config": {
+        "Blink": "None",
+        "BoobyTrap": "None",
+        "Fireball": "None",
+        "MagicMissile": "None",
+        "MissileSwarm": "None",
+        "PlayerLeap": "None",
+        "RalmasRevenge": "None",
+        "SongOfResilience": "None",
+        "Zap": "None"
+      }
+    },
+    {
+      "Rule": "CardEnergyAdditionOverridden",
+      "Config": {
+        "HeroBarbarian": [
+          "EnergyPotion",
+          "Bone",
+          "WebBomb",
+          "Barricade",
+          "RepeatingBallista",
+          "OneMoreThing",
+          "PanicPowder",
+          "VortexDust",
+          "BottleOfLye",
+          "ScrollTsunami",
+          "Regroup",
+          "WaterBottle",
+          "LuckPotion",
+          "ScrollElectricity",
+          "MarkOfVerga"
+        ],
+        "HeroBard": [
+          "EnergyPotion",
+          "Bone",
+          "WebBomb",
+          "Barricade",
+          "RepeatingBallista",
+          "OneMoreThing",
+          "BottleOfLye",
+          "Vortex",
+          "ScrollTsunami",
+          "Regroup",
+          "WaterBottle",
+          "LuckPotion",
+          "ScrollElectricity",
+          "ScrollOfCharm"
+        ],
+        "HeroGuardian": [
+          "EnergyPotion",
+          "Bone",
+          "WebBomb",
+          "Barricade",
+          "RepeatingBallista",
+          "OneMoreThing",
+          "PanicPowder",
+          "VortexDust",
+          "BottleOfLye",
+          "ScrollTsunami",
+          "Regroup",
+          "WaterBottle",
+          "LuckPotion",
+          "ScrollElectricity",
+          "WhirlwindAttack"
+        ],
+        "HeroHunter": [
+          "EnergyPotion",
+          "WebBomb",
+          "Barricade",
+          "RepeatingBallista",
+          "OneMoreThing",
+          "PanicPowder",
+          "VortexDust",
+          "BottleOfLye",
+          "ScrollTsunami",
+          "Regroup",
+          "WaterBottle",
+          "LuckPotion",
+          "ScrollElectricity",
+          "HuntersMark"
+        ],
+        "HeroRogue": [
+          "EnergyPotion",
+          "Bone",
+          "WebBomb",
+          "RepeatingBallista",
+          "OneMoreThing",
+          "PanicPowder",
+          "VortexDust",
+          "BottleOfLye",
+          "ScrollTsunami",
+          "Regroup",
+          "WaterBottle",
+          "LuckPotion",
+          "ScrollElectricity",
+          "Blink"
+        ],
+        "HeroSorcerer": [
+          "EnergyPotion",
+          "Bone",
+          "WebBomb",
+          "Barricade",
+          "RepeatingBallista",
+          "OneMoreThing",
+          "PanicPowder",
+          "VortexDust",
+          "BottleOfLye",
+          "ScrollTsunami",
+          "Regroup",
+          "LuckPotion",
+          "ScrollElectricity",
+          "Fireball"
+        ],
+        "HeroWarlock": [
+          "EnergyPotion",
+          "Bone",
+          "WebBomb",
+          "Barricade",
+          "RepeatingBallista",
+          "OneMoreThing",
+          "PanicPowder",
+          "VortexDust",
+          "BottleOfLye",
+          "ScrollTsunami",
+          "Regroup",
+          "WaterBottle",
+          "LuckPotion",
+          "ScrollElectricity",
+          "Portal"
+        ]
+      }
+    },
+    {
+      "Rule": "ElvenQueenBuffs",
+      "Config": true
+    },
+    {
+      "Rule": "ElvenQueenSuperBuff",
+      "Config": true
+    },
+    {
+      "Rule": "EnemyRespawnDisabled",
+      "Config": true
+    },
+    {
+      "Rule": "FreeActionPointsOnCrit",
+      "Config": [
+        "HeroBarbarian",
+        "HeroBard",
+        "HeroRogue",
+        "HeroGuardian",
+        "HeroSorcerer",
+        "HeroHunter",
+        "WarlockMinion",
+        "HeroWarlock"
+      ]
+    },
+    {
+      "Rule": "FreeHealOnCrit",
+      "Config": [
+        "HeroBarbarian",
+        "HeroBard",
+        "HeroRogue",
+        "HeroGuardian",
+        "HeroSorcerer",
+        "HeroHunter",
+        "WarlockMinion",
+        "HeroWarlock"
+      ]
+    },
+    {
+      "Rule": "GrappleUnhooked",
+      "Config": true
+    },
+    {
+      "Rule": "LevelPropertiesModified",
+      "Config": {
+        "FloorOneLootChests": 0,
+        "FloorOnePotionStand": 1,
+        "FloorTwoLootChests": 0,
+        "FloorTwoPotionStand": 1
+      }
+    },
+    {
+      "Rule": "LevelSequenceOverridden",
+      "Config": ["ElvenFloor15", "ForestFloor07", "ForestShopFloor", "DesertFloor04", "TownsFloor07"]
+    },
+    {
+      "Rule": "MonsterDeckOverridden",
+      "Config": {
+        "Boss": "RootLord, WizardBoss",
+        "BossDeck": {
+          "ReptileArcher": 1,
+          "ReptileMutantWizard": 1,
+          "GeneralRonthian": 1,
+          "TheUnseen": 2,
+          "ElvenArcher": 2,
+          "ElvenSkirmisher": 1,
+          "CultMemberElder": 2,
+          "RootMage": 1,
+          "KillerBee": 1,
+          "EarthElemental": 2,
+          "Sigataur": 2,
+          "GiantSlime": 2,
+          "FireElemental": 1,
+          "ElvenMarauder": 2,
+          "GiantSpider": 2,
+          "Cavetroll": 2,
+          "RootGolem": 4,
+          "Brookmare": 2,
+          "Gorgon": 2,
+          "SilentSentinel": 2,
+          "BigBoiMutant": 2,
+          "ServantOfAlfaragh": 2,
+          "ElvenSummoner": 2,
+          "Mimic": 0
+        },
+        "EntranceDeckFloor1": {
+          "DruidArcher": 0,
+          "ElvenSummoner": 5,
+          "ChestGoblin": 3,
+          "Brookmare": 2,
+          "EarthElemental": 2
+        },
+        "EntranceDeckFloor2": {
+          "RootCreeper": 0,
+          "Gorgon": 10,
+          "Sigataur": 3,
+          "SilentSentinel": 2,
+          "ElvenSummoner": 4
+        },
+        "ExitDeckFloor1": {
+          "RootHound": 0,
+          "SilentSentinel": 2,
+          "EarthElemental": 2,
+          "ElvenSummoner": 5
+        },
+        "ExitDeckFloor2": {
+          "PoisonousRat": 0,
+          "RootCreeper": 2,
+          "ChestGoblin": 3,
+          "ElvenSummoner": 4,
+          "ElvenMarauder": 2
+        },
+        "KeyHolderFloor1": "CavetrollBoss",
+        "KeyHolderFloor2": "MotherCy"
+      }
+    },
+    {
+      "Rule": "PartyElectricityDamageOverridden",
+      "Config": true
+    },
+    {
+      "Rule": "PieceAbilityListOverridden",
+      "Config": {
+        "ChestGoblin": ["DiseasedBite", "LightningBolt", "Grapple"],
+        "CultMemberElder": ["Grapple", "Charge", "CorruptOneTurn"],
+        "EarthElemental": [
+          "RaiseRoots",
+          "RootWall",
+          "EarthShatter",
+          "DeathFlurry",
+          "DropChest",
+          "Grapple",
+          "LeapHeavy"
+        ],
+        "Mimic": ["EnemyMelee", "AcidSpit", "Grapple", "PlayerLeap", "EnemyFrostball", "Zap"],
+        "Rat": ["DiseasedBite", "SpawnRat", "EnemyStealGold", "SpawnMushrooms", "DropChest", "EnemyStealCard"],
+        "RootCreeper": ["ThornPowder", "EnemyStealGold", "DropChest", "EnemyStealCard"]
+      }
+    },
+    {
+      "Rule": "PieceBehavioursListOverridden",
+      "Config": {
+        "Cavetroll": ["Patrol", "AttackPlayer", "RangedAttackHighPrio"],
+        "ChestGoblin": ["Patrol", "FollowPlayerMeleeAttacker", "AttackAndRetreat", "RangedAttackHighPrio"],
+        "CultMemberElder": ["Patrol", "AttackAndRetreat", "RangedSpellCaster"],
+        "EarthElemental": ["Patrol", "AttackPlayer", "EarthShatter", "RangedAttackHighPrio"],
+        "ElvenArcher": ["Patrol", "RangedSpellCaster", "FollowPlayerRangedAttacker"],
+        "ElvenSkirmisher": ["Patrol", "AttackPlayer", "PikeAttack"],
+        "GiantSlime": ["Patrol", "AttackPlayer", "RangedAttackHighPrio"],
+        "GiantSpider": ["Patrol", "AttackPlayer", "RangedAttackHighPrio"],
+        "GoblinFighter": ["Patrol", "AttackPlayer", "RangedAttackHighPrio"],
+        "JeweledScarab": ["Patrol", "FleeToFOW"],
+        "KillerBee": ["Patrol", "AttackPlayer", "RangedAttackHighPrio"],
+        "Mimic": ["Patrol", "AttackPlayer", "RangedAttackHighPrio"],
+        "RootMage": ["Patrol", "AttackPlayer", "CastOnTeam", "RangedAttackHighPrio"],
+        "SandScorpion": ["Patrol", "FollowPlayerMeleeAttacker", "AttackAndRetreat"],
+        "ScabRat": ["Patrol", "Swarm", "AttackPlayer"],
+        "SilentSentinel": ["Patrol", "AttackPlayer", "RangedSpellCaster"],
+        "TheUnseen": ["Patrol", "AttackPlayer", "RangedSpellCaster"],
+        "Wyvern": ["Patrol", "AttackPlayer", "RangedAttackHighPrio"]
+      }
+    },
+    {
+      "Rule": "PieceConfigAdjusted",
+      "Config": [
+        {
+          "Piece": "HeroBarbarian",
+          "Property": "StartHealth",
+          "Value": 10.0
+        },
+        {
+          "Piece": "HeroBard",
+          "Property": "StartHealth",
+          "Value": 10.0
+        },
+        {
+          "Piece": "HeroGuardian",
+          "Property": "StartHealth",
+          "Value": 10.0
+        },
+        {
+          "Piece": "HeroHunter",
+          "Property": "StartHealth",
+          "Value": 10.0
+        },
+        {
+          "Piece": "HeroRogue",
+          "Property": "StartHealth",
+          "Value": 10.0
+        },
+        {
+          "Piece": "HeroSorcerer",
+          "Property": "StartHealth",
+          "Value": 10.0
+        },
+        {
+          "Piece": "HeroWarlock",
+          "Property": "StartHealth",
+          "Value": 10.0
+        },
+        {
+          "Piece": "WarlockMinion",
+          "Property": "StartHealth",
+          "Value": 35.0
+        },
+        {
+          "Piece": "Verochka",
+          "Property": "StartHealth",
+          "Value": 35.0
+        },
+        {
+          "Piece": "SmiteWard",
+          "Property": "StartHealth",
+          "Value": 35.0
+        },
+        {
+          "Piece": "SwordOfAvalon",
+          "Property": "StartHealth",
+          "Value": 35.0
+        },
+        {
+          "Piece": "Lure",
+          "Property": "StartHealth",
+          "Value": 35.0
+        },
+        {
+          "Piece": "EyeOfAvalon",
+          "Property": "StartHealth",
+          "Value": 35.0
+        },
+        {
+          "Piece": "ELvenQueen",
+          "Property": "StartHealth",
+          "Value": 160.0
+        },
+        {
+          "Piece": "HeroRogue",
+          "Property": "CriticalHitDamage",
+          "Value": 8.0
+        },
+        {
+          "Piece": "HeroSorcerer",
+          "Property": "CriticalHitDamage",
+          "Value": 8.0
+        },
+        {
+          "Piece": "HeroHunter",
+          "Property": "CriticalHitDamage",
+          "Value": 8.0
+        },
+        {
+          "Piece": "HeroBard",
+          "Property": "CriticalHitDamage",
+          "Value": 8.0
+        },
+        {
+          "Piece": "HeroWarlock",
+          "Property": "CriticalHitDamage",
+          "Value": 8.0
+        },
+        {
+          "Piece": "HeroGuardian",
+          "Property": "CriticalHitDamage",
+          "Value": 8.0
+        },
+        {
+          "Piece": "HeroBarbarian",
+          "Property": "CriticalHitDamage",
+          "Value": 8.0
+        },
+        {
+          "Piece": "HeroRogue",
+          "Property": "AttackDamage",
+          "Value": 4.0
+        },
+        {
+          "Piece": "HeroSorcerer",
+          "Property": "AttackDamage",
+          "Value": 4.0
+        },
+        {
+          "Piece": "HeroHunter",
+          "Property": "AttackDamage",
+          "Value": 4.0
+        },
+        {
+          "Piece": "HeroBard",
+          "Property": "AttackDamage",
+          "Value": 4.0
+        },
+        {
+          "Piece": "HeroWarlock",
+          "Property": "AttackDamage",
+          "Value": 4.0
+        },
+        {
+          "Piece": "HeroGuardian",
+          "Property": "AttackDamage",
+          "Value": 4.0
+        },
+        {
+          "Piece": "HeroBarbarian",
+          "Property": "AttackDamage",
+          "Value": 4.0
+        },
+        {
+          "Piece": "Verochka",
+          "Property": "AttackDamage",
+          "Value": 4.0
+        },
+        {
+          "Piece": "WarlockMinion",
+          "Property": "AttackDamage",
+          "Value": 4.0
+        },
+        {
+          "Piece": "Mimic",
+          "Property": "AttackDamage",
+          "Value": 5.0
+        }
+      ]
+    },
+    {
+      "Rule": "PieceDamageResist",
+      "Config": [
+        "WarlockMinion",
+        "ElvenQueen",
+        "WizardBoss",
+        "BossTown",
+        "MotherCy",
+        "RootLord",
+        "RatKing",
+        "Mimic",
+        "Wyvern"
+      ]
+    },
+    {
+      "Rule": "PieceImmunityListAdjusted",
+      "Config": {
+        "HeroSorcerer": ["Stunned", "Weaken1Turn"]
+      }
+    },
+    {
+      "Rule": "PieceImmunityListAdjusted",
+      "Config": {
+        "BossTown": [
+          "Stunned",
+          "Frozen",
+          "Tangled",
+          "Panic",
+          "Blinded",
+          "MarkOfAvalon",
+          "Confused",
+          "Weaken1Turn",
+          "ConfusedPermanentVisualOnly",
+          "Petrified",
+          "Disoriented",
+          "AbilityBlocked",
+          "Netted"
+        ],
+        "ElvenQueen": [
+          "Stunned",
+          "Frozen",
+          "Tangled",
+          "Panic",
+          "Blinded",
+          "Confused",
+          "Disoriented",
+          "AbilityBlocked",
+          "Netted"
+        ],
+        "HeroBarbarian": ["Petrified"],
+        "HeroBard": ["Diseased", "Blinded"],
+        "HeroGuardian": ["Weaken1Turn", "Weaken2Turns"],
+        "HeroHunter": ["Frozen"],
+        "HeroRogue": ["Tangled", "Netted"],
+        "HeroSorcerer": ["Stunned"],
+        "HeroWarlock": ["CorruptedRage", "Undefined"],
+        "MotherCy": [
+          "Stunned",
+          "Frozen",
+          "Tangled",
+          "Panic",
+          "Blinded",
+          "MarkOfAvalon",
+          "Confused",
+          "Disoriented",
+          "AbilityBlocked",
+          "Netted"
+        ],
+        "RatKing": [
+          "Stunned",
+          "Frozen",
+          "Panic",
+          "Blinded",
+          "Confused",
+          "Diseased",
+          "Disoriented",
+          "AbilityBlocked",
+          "Netted"
+        ],
+        "RootLord": [
+          "Stunned",
+          "Frozen",
+          "Tangled",
+          "Panic",
+          "Blinded",
+          "MarkOfAvalon",
+          "Confused",
+          "Disoriented",
+          "AbilityBlocked",
+          "Netted"
+        ],
+        "Verochka": ["Frozen"],
+        "WarlockMinion": [
+          "Blinded",
+          "Disoriented",
+          "Confused",
+          "ConfusedPermanentVisualOnly",
+          "Panic",
+          "CorruptedRage",
+          "Undefined"
+        ],
+        "WizardBoss": [
+          "Stunned",
+          "Frozen",
+          "Tangled",
+          "Panic",
+          "Blinded",
+          "MarkOfAvalon",
+          "Diseased",
+          "CorruptedRage",
+          "Corruption",
+          "Confused",
+          "Disoriented",
+          "AbilityBlocked",
+          "Netted"
+        ]
+      }
+    },
+    {
+      "Rule": "PieceImmunityListAdjusted",
+      "Config": {
+        "BossTown": [
+          "Stunned",
+          "Frozen",
+          "Tangled",
+          "Panic",
+          "Blinded",
+          "MarkOfAvalon",
+          "Confused",
+          "Weaken1Turn",
+          "ConfusedPermanentVisualOnly",
+          "Petrified",
+          "Disoriented",
+          "AbilityBlocked",
+          "Netted"
+        ],
+        "ElvenQueen": [
+          "Stunned",
+          "Frozen",
+          "Tangled",
+          "Panic",
+          "Blinded",
+          "Confused",
+          "Disoriented",
+          "AbilityBlocked",
+          "Netted"
+        ],
+        "MotherCy": [
+          "Stunned",
+          "Frozen",
+          "Tangled",
+          "Panic",
+          "Blinded",
+          "MarkOfAvalon",
+          "Confused",
+          "Disoriented",
+          "AbilityBlocked",
+          "Netted"
+        ],
+        "RatKing": [
+          "Stunned",
+          "Frozen",
+          "Panic",
+          "Blinded",
+          "Confused",
+          "Diseased",
+          "Disoriented",
+          "AbilityBlocked",
+          "Netted"
+        ],
+        "RootLord": [
+          "Stunned",
+          "Frozen",
+          "Tangled",
+          "Panic",
+          "Blinded",
+          "MarkOfAvalon",
+          "Confused",
+          "Disoriented",
+          "AbilityBlocked",
+          "Netted"
+        ],
+        "WarlockMinion": [
+          "Blinded",
+          "Disoriented",
+          "Confused",
+          "ConfusedPermanentVisualOnly",
+          "Panic",
+          "CorruptedRage",
+          "Undefined"
+        ],
+        "WizardBoss": [
+          "Stunned",
+          "Frozen",
+          "Tangled",
+          "Panic",
+          "Blinded",
+          "MarkOfAvalon",
+          "Diseased",
+          "CorruptedRage",
+          "Corruption",
+          "Confused",
+          "Disoriented",
+          "AbilityBlocked",
+          "Netted"
+        ]
+      }
+    },
+    {
+      "Rule": "PiecePieceTypeListOverridden",
+      "Config": {
+        "BigBoiMutant": [
+          "Creature",
+          "ForestCreature",
+          "DesertCreature",
+          "Reptile",
+          "ValidCorruptionTarget",
+          "TooHeavyToGrapple"
+        ],
+        "Cavetroll": ["Creature", "ForestCreature", "DesertCreature", "ValidCorruptionTarget", "TooHeavyToGrapple"],
+        "EarthElemental": ["Creature", "ForestCreature", "DesertCreature"],
+        "ElvenArcher": ["Creature", "ForestCreature", "DesertCreature", "ValidCorruptionTarget"],
+        "ElvenHound": ["Creature", "Canine", "ForestCreature", "DesertCreature", "ValidCorruptionTarget"],
+        "ElvenMarauder": ["Creature", "ForestCreature", "DesertCreature", "ValidCorruptionTarget"],
+        "ElvenMystic": ["Creature", "ForestCreature", "DesertCreature", "NonTeleportable"],
+        "ElvenPriest": ["Creature", "ForestCreature", "DesertCreature"],
+        "ElvenSkirmisher": ["Creature", "ForestCreature", "DesertCreature", "ValidCorruptionTarget"],
+        "FireElemental": ["Creature", "ForestCreature", "DesertCreature", "ValidCorruptionTarget"],
+        "GeneralRonthian": ["Creature", "ForestCreature", "DesertCreature", "ValidCorruptionTarget"],
+        "GiantSlime": ["Creature", "ForestCreature", "DesertCreature", "GiantSlime", "ValidCorruptionTarget"],
+        "GiantSpider": ["Creature", "ForestCreature", "DesertCreature", "ValidCorruptionTarget", "TooHeavyToGrapple"],
+        "GoblinChieftan": ["Creature", "ForestCreature", "DesertCreature", "Goblin", "ValidCorruptionTarget"],
+        "GoblinMadUn": ["Creature", "ForestCreature", "DesertCreature", "Goblin", "ValidCorruptionTarget"],
+        "Gorgon": ["Creature", "ForestCreature", "DesertCreature", "ValidCorruptionTarget"],
+        "IceElemental": ["Creature", "ForestCreature", "DesertCreature", "Brittle"],
+        "Mimic": ["Creature", "ForestCreature", "DesertCreature", "ValidCorruptionTarget"],
+        "Rat": ["Creature", "Rat", "ForestCreature", "DesertCreature", "ValidCorruptionTarget"],
+        "ReptileArcher": ["Creature", "ForestCreature", "DesertCreature", "Reptile", "ValidCorruptionTarget"],
+        "ReptileMutantWizard": ["Creature", "ForestCreature", "DesertCreature", "Reptile", "ValidCorruptionTarget"],
+        "ScabRat": ["Creature", "ForestCreature", "DesertCreature", "Rat", "ValidCorruptionTarget"],
+        "ServantOfAlfaragh": ["Creature", "ForestCreature", "DesertCreature", "NonTeleportable", "TooHeavyToGrapple"],
+        "SilentSentinel": ["Creature", "ForestCreature", "DesertCreature", "TooHeavyToGrapple"],
+        "Slimeling": ["Creature", "ForestCreature", "DesertCreature", "SmallSlime"],
+        "Spider": ["Creature", "ForestCreature", "DesertCreature", "ValidCorruptionTarget"],
+        "TheUnheard": ["Creature", "ForestCreature", "DesertCreature", "Rat", "ValidCorruptionTarget"],
+        "TheUnseen": ["Creature", "ForestCreature", "DesertCreature"],
+        "TheUnspoken": ["Creature", "ForestCreature", "DesertCreature"],
+        "Thug": ["Creature", "ForestCreature", "DesertCreature", "Thief", "ValidCorruptionTarget"]
+      }
+    },
+    {
+      "Rule": "PieceUseWhenKilledOverridden",
+      "Config": {
+        "BigBoiMutant": ["Explosion"],
+        "Brookmare": ["Explosion"],
+        "Cavetroll": ["Explosion"],
+        "ChestGoblin": ["EnemyDropStolenGoods", "DropChest"],
+        "EarthElemental": ["Explosion"],
+        "GasLamp": ["PoisonGas", "Overload"],
+        "GeneralRonthian": ["Explosion"],
+        "GiantSpider": ["Explosion"],
+        "Gorgon": ["Explosion"],
+        "ReptileMutantWizard": ["Explosion"],
+        "RootGolem": ["Explosion"],
+        "ServantOfAlfaragh": ["Explosion"],
+        "Sigataur": ["Explosion"],
+        "SilentSentinel": ["Explosion"],
+        "Tornado": ["LetItRain"]
+      }
+    },
+    {
+      "Rule": "SpawnCategoryOverridden",
+      "Config": {
+        "ChestGoblin": [20, 10, 1],
+        "ElvenQueen": [1, 1, 2],
+        "ElvenSummoner": [100, 10, 1],
+        "LocustSwarmCloud": [2, 2, 1],
+        "Mimic": [200, 50, 1],
+        "RootLord": [2, 2, 1]
+      }
+    },
+    {
+      "Rule": "StartCardsModified",
+      "Config": {
+        "HeroBarbarian": [
+          {
+            "Card": "SpawnCultists",
+            "ReplenishFrequency": 0
+          },
+          {
+            "Card": "Teleportation",
+            "ReplenishFrequency": 5
+          },
+          {
+            "Card": "DrainingKiss",
+            "ReplenishFrequency": 1
+          },
+          {
+            "Card": "Grapple",
+            "ReplenishFrequency": 1
+          },
+          {
+            "Card": "PlayerLeap",
+            "ReplenishFrequency": 1
+          }
+        ],
+        "HeroBard": [
+          {
+            "Card": "SpawnCultists",
+            "ReplenishFrequency": 2
+          },
+          {
+            "Card": "CourageShanty",
+            "ReplenishFrequency": 1
+          },
+          {
+            "Card": "DrainingKiss",
+            "ReplenishFrequency": 1
+          },
+          {
+            "Card": "HurricaneAnthem",
+            "ReplenishFrequency": 2
+          },
+          {
+            "Card": "SongOfResilience",
+            "ReplenishFrequency": 2
+          }
+        ],
+        "HeroGuardian": [
+          {
+            "Card": "DrainingKiss",
+            "ReplenishFrequency": 1
+          },
+          {
+            "Card": "PiercingThrow",
+            "ReplenishFrequency": 1
+          },
+          {
+            "Card": "Charge",
+            "ReplenishFrequency": 1
+          },
+          {
+            "Card": "ReplenishArmor",
+            "ReplenishFrequency": 1
+          },
+          {
+            "Card": "WhirlwindAttack",
+            "ReplenishFrequency": 2
+          }
+        ],
+        "HeroHunter": [
+          {
+            "Card": "DrainingKiss",
+            "ReplenishFrequency": 2
+          },
+          {
+            "Card": "Arrow",
+            "ReplenishFrequency": 1
+          },
+          {
+            "Card": "EnemyFrostball",
+            "ReplenishFrequency": 2
+          },
+          {
+            "Card": "PoisonedTip",
+            "ReplenishFrequency": 2
+          },
+          {
+            "Card": "HailOfArrows",
+            "ReplenishFrequency": 1
+          }
+        ],
+        "HeroRogue": [
+          {
+            "Card": "EnemyMeleeBleed",
+            "ReplenishFrequency": 2
+          },
+          {
+            "Card": "DrainingKiss",
+            "ReplenishFrequency": 1
+          },
+          {
+            "Card": "Sneak",
+            "ReplenishFrequency": 4
+          },
+          {
+            "Card": "DiseasedBite",
+            "ReplenishFrequency": 2
+          },
+          {
+            "Card": "Blink",
+            "ReplenishFrequency": 2
+          }
+        ],
+        "HeroSorcerer": [
+          {
+            "Card": "DrainingKiss",
+            "ReplenishFrequency": 2
+          },
+          {
+            "Card": "Overcharge",
+            "ReplenishFrequency": 1
+          },
+          {
+            "Card": "LetItRain",
+            "ReplenishFrequency": 0
+          },
+          {
+            "Card": "Electricity",
+            "ReplenishFrequency": 2
+          },
+          {
+            "Card": "ScrollElectricity",
+            "ReplenishFrequency": 2
+          }
+        ],
+        "HeroWarlock": [
+          {
+            "Card": "Deflect",
+            "ReplenishFrequency": 3
+          },
+          {
+            "Card": "MinionCharge",
+            "ReplenishFrequency": 1
+          },
+          {
+            "Card": "DrainingKiss",
+            "ReplenishFrequency": 2
+          },
+          {
+            "Card": "MagicMissile",
+            "ReplenishFrequency": 1
+          },
+          {
+            "Card": "MissileSwarm",
+            "ReplenishFrequency": 0
+          }
+        ]
+      }
+    },
+    {
+      "Rule": "StatModifiersOverridden",
+      "Config": {
+        "HuntersMark": -4,
+        "ReplenishArmor": 5,
+        "ReplenishBarkArmor": 4,
+        "SongOfResilience": 8,
+        "StrengthPotion": 5,
+        "SwiftnessPotion": 5
+      }
+    },
+    {
+      "Rule": "StatusEffectConfig",
+      "Config": [
+        {
+          "effectStateType": "MinionLevelBoost",
+          "durationTurns": 12,
+          "tickWhen": "StartTurn",
+          "damagePerTurn": 0,
+          "stacks": true,
+          "clearOnNewLevel": false,
+          "damageTags": null,
+          "healPerTurn": 0,
+          "healthBoost": 0,
+          "killOnExpire": false,
+          "counterAttackDirections": 255,
+          "counterAttackDamage": 3,
+          "applyAfterDissipate": "Courageous",
+          "useOnDissipate": 0
+        },
+        {
+          "effectStateType": "Bleeding1",
+          "durationTurns": 5,
+          "tickWhen": "StartTurn",
+          "damagePerTurn": 2,
+          "stacks": true,
+          "clearOnNewLevel": true,
+          "damageTags": null,
+          "healPerTurn": 0,
+          "healthBoost": 0,
+          "killOnExpire": false,
+          "counterAttackDirections": 255,
+          "counterAttackDamage": 3,
+          "applyAfterDissipate": "Recovery",
+          "useOnDissipate": 0
+        },
+        {
+          "effectStateType": "Bleeding2",
+          "durationTurns": 5,
+          "tickWhen": "StartTurn",
+          "damagePerTurn": 2,
+          "stacks": true,
+          "clearOnNewLevel": true,
+          "damageTags": null,
+          "healPerTurn": 0,
+          "healthBoost": 0,
+          "killOnExpire": false,
+          "counterAttackDirections": 255,
+          "counterAttackDamage": 3,
+          "applyAfterDissipate": "Recovery",
+          "useOnDissipate": 0
+        },
+        {
+          "effectStateType": "Bleeding3",
+          "durationTurns": 5,
+          "tickWhen": "StartTurn",
+          "damagePerTurn": 2,
+          "stacks": true,
+          "clearOnNewLevel": true,
+          "damageTags": null,
+          "healPerTurn": 0,
+          "healthBoost": 0,
+          "killOnExpire": false,
+          "counterAttackDirections": 255,
+          "counterAttackDamage": 3,
+          "applyAfterDissipate": "Recovery",
+          "useOnDissipate": 0
+        },
+        {
+          "effectStateType": "Disoriented",
+          "durationTurns": 3,
+          "tickWhen": "StartTurn",
+          "damagePerTurn": 1,
+          "clearOnNewLevel": false,
+          "damageTags": null,
+          "healPerTurn": 0,
+          "healthBoost": 0,
+          "killOnExpire": false,
+          "counterAttackDirections": 0,
+          "counterAttackDamage": 0,
+          "applyAfterDissipate": "Panic",
+          "useOnDissipate": 0
+        }
+      ]
+    },
+    {
+      "Rule": "TileEffectDurationOverridden",
+      "Config": {
+        "Acid": 4,
+        "Gas": 3,
+        "Target": 0,
+        "Water": 10,
+        "Web": 2
+      }
+    }
+  ]
+}
